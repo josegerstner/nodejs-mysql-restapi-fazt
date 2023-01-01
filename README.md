@@ -335,3 +335,8 @@ También necesitamos agregar un script en el _package.json_ para correr en produ
   },
 ...
 ```
+Luego de subir todo a un repo público de Github, vamos a [Railway](https://railway.app/) y nos logueamos con Github.
+Creamos un proyecto desde el repo de Github y una vez creado vamos a añadir variables.  
+Antes de añadir las variables, creamos otro proyecto como **Provision MySQL**. Una vez creada, vamos a la parte de variables del proyecto MySQL y copiamos los datos que necesitamos mientras vamos creando las variables en el primer proyecto (server).  
+Por último, vamos a nuestro archivo _database.sql_ y copiamos y ejecutamos en Railway la query para crear la tabla y luego copiamos e insertamos los datos.
+Y listo. Ya podemos probar desde un programa como **Postman** las diferentes rutas y trabajar
